@@ -997,14 +997,14 @@
 					<uriEncoding>${project.build.sourceEncoding}</uriEncoding>
 				</configuration>
 			</plugin>
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-surefire-plugin</artifactId>-->
-                <!--<version>2.12.4</version>-->
-                <!--<configuration>-->
-                    <!--<skipTests>true</skipTests>-->
-                <!--</configuration>-->
-            <!--</plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.0</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
 			<!-- jetty插件 -->
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
@@ -1055,9 +1055,9 @@
 				</includes>
 				<filtering>false</filtering>
 			</testResource>
-			<testResource>
-				<directory>src/test/resources</directory>
-			</testResource>
+			<!--<testResource>-->
+				<!--<directory>src/test/resources</directory>-->
+			<!--</testResource>-->
 		</testResources>
 	</build>
 	
