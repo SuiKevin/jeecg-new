@@ -1,0 +1,336 @@
+<%@ page language="java" import="java.util.*" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@include file="/context/mytags.jsp"%>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>秦聘网络简历展示</title>
+	
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+	<meta http-equiv="expires" content="0">
+	<script type="text/javascript" async="" src="./css/statistic.js"></script><script src="./css/hm.js"></script><script type="text/javascript" charset="utf-8">
+		var timeTrak = {
+			starttime: new Date().getTime(),//开始位置时间
+			load_time: 0,//页面加载完位置
+			cdn_time: 0,
+			bp_time: "", //白屏时间
+			sp_time: "", //首屏时间
+			cz_time: "", //可操作时间
+			pagetype: "resume_detail",
+			city: "",//城市
+			net_speed: "",
+			net_type: "",//网络类型
+			template_type: "detail_new",//模板类型
+			connection: navigator.connection || navigator.mozConnection || navigator.webkitConnection || {type: 'unknown'},
+			gettime: function () {
+				return (new Date().getTime());
+			}
+		};
+		document.addEventListener("DOMContentLoaded", function (e) {
+			timeTrak.cz_time = timeTrak.gettime() - timeTrak.starttime;
+		});
+		window.addEventListener("load", function () {
+			timeTrak.load_time = timeTrak.gettime() - timeTrak.starttime;
+			timeTrak.imgLoad && timeTrak.imgLoad();
+		});
+	</script>
+	<link type="text/css" rel="stylesheet" charset="utf-8" href="./css/public2012_v20160921010946.css">
+	<link type="text/css" rel="stylesheet" charset="utf-8" href="./css/resume-detail_v20170321184746.css">
+	<link type="text/css" rel="stylesheet" charset="utf-8" href="./css/screening_v20151119214831.css">
+	<style charset="utf-8" type="text/css" media="print">.history, .gongneng, .comcss, .cssscore {  display: none  }</style>
+	<script type="text/javascript" language="javascript">document.domain = ""; </script>
+</head>
+<body class="pvpbg">
+<script type="text/javascript">
+	timeTrak.bp_time = timeTrak.gettime() - timeTrak.starttime;
+</script>
+<div id="jplayerBox"></div>
+<div id="login-header">
+	<div id="login-header-content">
+		<div class="rp_nav">
+                <span>
+                    <a href="#">秦聘网络简历</a>&gt;
+                </span>
+		</div>
+	</div>
+</div>
+<div class="vipResMain clearfix">
+	<div class="vipResContent resume_preview">
+		<div class="resDetailRight">
+			<h1 class="resTitle">
+				<input style="display:none" id="hideRid" value="3_nerQ_eZsnv6QTeZXneZNlE6XnvZfneHsnena_E65lEnNTvyaTe6alETkneypMGnaMGyf_-5f_isfnErsnEzkneZvnEm*">
+				<span class="name">李亚洲</span>
+				<span class="sexAge">（男，19岁）</span>
+				<span class="vip-icon ">VIP</span>
+				
+									
+																																																																											</h1>
+			<div class="kindTips" id="warnTips" style="display:none"></div>
+			<div class="kindTips" id="warnTips2" style="display:none"></div>
+
+			<div class="certificate">
+				<div class="certificate-title">我的认证：</div>
+				<div class="certificate-list">
+					<ul>
+						<li>
+							<i class="icon-mobile  on "></i>
+							<span class="noCertificate" id="authPhone" style="cursor: pointer;">手机认证</span>
+						</li>
+						<li>
+							<i class="icon-id "></i>
+							<span class="noCertificate turnToCertList" style="cursor: pointer;">身份认证</span>
+						</li>
+						<li>
+							<i class="icon-wechat  on "></i>
+							<span class="noCertificate" id="authWechat" style="cursor: pointer;">微信认证</span>
+						</li>
+						<li>
+							<i class="icon-zhima "></i>
+							<span class="noCertificate turnToCertList" style="cursor: pointer;">芝麻认证</span>
+						</li>
+						<li>
+							<i class="icon-edu "></i>
+							<span class="noCertificate turnToCertList" style="cursor: pointer;">学历认证</span>
+						</li>
+																	</ul>
+				</div>
+			</div>
+
+			<div class="expectInfo">
+				<div class="expectTitle">
+					<dl>
+						<dt class="fb f-58">基本情况：</dt>
+						<dd>
+							<ul class="expectDetail">
+								<li>大专</li>
+								<li class="divide">|</li>
+								<li>1-2年工作经验</li>
+																	<li class="divide">|</li>
+									<li>现居西安临潼区代王</li>
+																									<li class="divide">|</li>
+									<li>西安人</li>
+															</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="fb f-58">求职意向：</dt>
+						<dd>
+							<ul class="expectDetail">
+								<li class="pl0">求职后厨</li>
+								<li class="divide">|</li>
+								<li>想在西安临潼区骊山工作</li>
+								<li class="divide">|</li>
+								<li class="br0">期望薪资3000-5000</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+
+				
+									<div class="intrCon">
+						保存家里保存家里保存家里保存家里保存家里
+					</div>
+				
+									<ul class="cbright">
+													<li>
+								<div class="cbbg1"><span class="fl">县市级二等奖学金2次</span></div>
+							</li>
+											</ul>
+				
+				<div id="contviewfunc" class="cb">
+					<div class="cvbtg">
+						<div class="cv_dtl" style="display:block">
+							<ul class="summ">
+								<li class="br0">
+									<span class="sth"></span>
+									<span class="ored">18717306079</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				<p class="protect-icon-mes">该求职者已开启号码保护，此联系方式为通话密号替代真实手机号</p></div>
+			</div>
+
+						<div class="addcont addexpe">
+				<div class="modtab">
+					<h3>工作经验</h3>
+					<span>（做了1份工作）</span>
+				</div>
+								<div class="infoview noborder">
+					<h4>李家村后厨</h4>
+					<p class="pst">
+						<span class="sth">工作时间：</span>
+						<span class="std">1998年01月-1998年02月</span>
+					</p>
+					<p class="pst">
+						<span class="sth">薪资水平：</span>
+						<span class="std">1000-2000</span>
+					</p>
+					<p class="pst">
+						<span class="sth">在职职位：</span>
+						<span class="std">测试</span>
+					</p>
+										<p class="pst2">
+						<span class="sth">工作职责：</span>
+						<span class="std">测试测试测试</span>
+					</p>
+									</div>
+							</div>
+			
+						<div class="addcont addeduc">
+				<div class="modtab">
+					<h3>学历教育</h3>
+				</div>
+								<div class="infoview noborder">
+					<ul class="summ">
+						<li>2017年02月毕业</li>
+						<li>测试学校</li>
+						<li class="noborder">测试专业</li>
+					</ul>
+				</div>
+							</div>
+			
+							<div class="addcont addatsch">
+					<div class="modtab">
+						<h3>在校情况</h3>
+					</div>
+					<div class="infoview">
+													<p class="pst2">
+								<span class="sth">获奖学金：</span>
+                                <span class="std">县市级二等奖2次</span>
+							</p>
+																							</div>
+				</div>
+			
+							<div class="addcont addlan">
+					<div class="modtab">
+						<h3>语言能力</h3>
+					</div>
+					<div class="infoview">
+													<p class="pst2">
+								<span class="sth">日语：</span>
+                               <span class="std">
+                                   <span>听说一般</span>
+								   <span>读写一般</span>
+								   <span>已通过日语专业四级考试</span>
+                               </span>
+							</p>
+											</div>
+				</div>
+			
+							<div class="addcont addcert">
+					<div class="modtab">
+						<h3>获得证书</h3>
+					</div>
+					<div class="infoview">
+													<p class="pst2">
+								<span class="sth">厨师证</span>
+                                <span class="std">2013年10月</span>
+                                <span class="std"></span>
+							</p>
+											</div>
+				</div>
+			
+							<div class="addcont addproj">
+					<div class="modtab">
+						<h3>项目经验</h3>
+					</div>
+											<div class="infoview">
+							<h4>某某学校</h4>
+
+							<p class="pst2">
+								<span class="sth">项目时间：</span>
+                                <span class="std">2015年02月-2015年11月</span>
+							</p>
+
+							<p class="pst2">
+								<span class="sth">项目简介：</span>
+                                <span class="std">某某学校某某学校某某学校</span>
+							</p>
+
+							<p class="pst2">
+								<span class="sth">职责和业绩：</span>
+                                <span class="std">某某学校某某学校某某学校某某学校</span>
+							</p>
+						</div>
+											<div class="infoview">
+							<h4>某某公司</h4>
+
+							<p class="pst2">
+								<span class="sth">项目时间：</span>
+                                <span class="std">2013年02月-2013年10月</span>
+							</p>
+
+							<p class="pst2">
+								<span class="sth">项目简介：</span>
+                                <span class="std">某某学校某某学校某某学校某某学校</span>
+							</p>
+
+							<p class="pst2">
+								<span class="sth">职责和业绩：</span>
+                                <span class="std">某某学校某某学校某某学校某某学校</span>
+							</p>
+						</div>
+									</div>
+			
+							<div class="addcont addAbility">
+					<div class="modtab">
+						<h3>专业技能</h3>
+					</div>
+					<div class="infoview">
+													<p class="pst">
+								<span class="sth">Excel：</span>
+								<span class="std">
+									<span>一般</span>
+									<span>3年经验</span>
+								</span>
+							</p>
+											</div>
+				</div>
+										<div class="addcont addshowme">
+					<div class="modtab">
+						<h3>照片/作品</h3>
+					</div>
+					<div class="infoview">
+						<ul class="myphoto">
+						</ul>
+					</div>
+				</div>
+			
+			<div class="addcont addvip">
+				<div class="modtab">
+					<h3>我的会员</h3>
+				</div>
+				<div class="infoview">
+											<div class="noOpenVip">
+							<div class="vipTip">
+								<p class="vipTitle">开通金卡会员，享一站式求职服务</p>
+
+								<p class="vipContent">个人认证＋黄金标签＋简历置顶＋闪信送达</p>
+							</div>
+							<div class="openVipBtn">去看看</div>
+						</div>
+									</div>
+			</div>
+		</div>
+		</div>
+			<script>timeTrak.sp_time = timeTrak.gettime() - timeTrak.starttime;</script>
+		</div>
+		<div class="allMask noTips"></div>
+		<div class="usreTipsFirst noTips">
+			<span class="IknowFirst"></span>
+		</div>
+		<div class="usreTipsSecond noTips">
+			<span class="IknowSecond"></span>
+		</div>
+		<div class="usreTipsThird noTips">
+			<span class="IknowThird"></span>
+		</div>
+		<div class="usreTipsForth noTips">
+			<span class="IknowForth"></span>
+		</div>
+
+		<div id="footer" style="border-top-width: 0;">
+			<p>
+			</p>
+		</div><div class="r_ad"><div class="r_close"></div><a class="r_btn" href="javascript:void(0)"></a></div>
+</body></html>
